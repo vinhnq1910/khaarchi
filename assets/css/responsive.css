@@ -1,0 +1,53 @@
+/* Responsive layout for PC/Laptop */
+@media (min-width: 64em) {
+  .column {
+    flex: 20%;
+    max-width: 20%;
+  }
+
+  .mobile__menu-btn {
+    display: none;
+  }
+}
+
+/* Responsive layout for tablet */
+@media (min-width:  46.25em) and (max-width: 63.9375em) {
+  .column {
+    flex: 20%;
+    max-width: 20%;
+  }
+
+  .header__nav, .header__right {
+    display: none;
+  }
+
+  .flexslider {
+    width: 100%;
+  }
+  
+}
+  
+/* Responsive layout for mobile */
+@media (max-width: 46.1875em) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .flexslider {
+    width: 100%;
+  }
+
+  #footer a {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 2.2;
+    padding: 08px 08px;
+    color: #ccc;
+    font-size: 08px;
+  }
+  
+  .header__nav, .header__right {
+    display: none;
+  }
+}
